@@ -1,5 +1,21 @@
 .fitness-img img {
     width: 250px;
     height: 200px;
-    margin-top: 5px;
+    margin-top: 20px;
+}
+
+.total-fitness {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.btn-card {
+    width: 100%;
+    background-color: bisque;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+}
+
+.btn-card:hover {
+    background-color: aquamarine;
 }
