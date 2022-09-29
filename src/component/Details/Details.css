@@ -5,4 +5,37 @@
 
 }
 
-.info {}
+.info {
+    display: flex;
+    gap: 30px;
+    border: 1px;
+    padding-left: 30px;
+}
+
+.btn-click {
+    margin-top: 80px;
+    border: 1px solid grey;
+    background-color: aquamarine;
+}
+
+.detail-inf {
+    margin-top: 50px;
+    border: 1px solid grey;
+    background-color: aquamarine;
+}
+
+.bt {
+    margin-top: 50px;
+    border: 1px solid grey;
+    background-color: aquamarine;
+}
+
+.info-call {
+    margin-top: 50px;
+    border: 1px solid grey;
+    background-color: aquamarine;
+}
+
+.qsn {
+    margin-top: 35px;
+}

@@ -14,30 +14,33 @@ const Details = (props) => {
     return (
 
         <div>
-            <div>
-                <h3>Raihan sarkar</h3>
+            <div className='info-call'>
+                <h2>Raihan sarkar</h2>
                 <div className='info'>
-                    <p>75kg</p>
-                    <p>6.5</p>
-                    <p>25</p>
+                    <h4>75kg</h4>
+                    <h4>6.5</h4>
+                    <h4>25</h4>
                 </div>
 
             </div>
 
-            <div>
+            <div className='detail-inf'>
                 <h3>details</h3>
-                <p>Exercise time:{time}</p>
+                <p>Exercise requirment:  {time}</p>
             </div>
 
-            <div>
+            <div className='btn-click'>
                 <button onClick={() => onClickf(10)} className='btn-design'>10</button>
                 <button onClick={() => onClickf(20)} className='btn-design'>20</button>
                 <button onClick={() => onClickf(30)} className='btn-design'>30</button>
                 <button onClick={() => onClickf(40)} className='btn-design'>40</button>
             </div>
-            < div>
+            < div className='bt'>
 
-                <p> time:{btime}</p>
+                <p>Break time:{btime}</p>
+            </div>
+            <div className='qsn'>
+                <a target="_blank" href='q'>Question</a>
             </div>
         </div>
 
