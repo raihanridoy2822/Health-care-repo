@@ -3,6 +3,7 @@ import './Health.css';
 import Fitness from './../../Fitness/Fitness';
 const Health = () => {
     const [product, setProduct] = useState([]);
+    const [card, setCard] = useState([]);
 
     useEffect(() => {
         fetch('product.json')
@@ -12,6 +13,8 @@ const Health = () => {
     }, []);
     const handleCard = (product) => {
         console.log(product);
+        const newCard = [...card, product];
+        setCard(newCard);
     }
 
     return (
@@ -27,6 +30,7 @@ const Health = () => {
             </div>
             <div className='details'>
                 <h3>details</h3>
+                <p>Exercise time:{card.length}</p>
             </div>
         </div>
     );
