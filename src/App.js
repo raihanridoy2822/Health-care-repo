@@ -1,6 +1,6 @@
 import './App.css';
 import Health from './component/Health/Health';
-
+import Heading from './Heading/Heading';
 
 function App() {
   return (

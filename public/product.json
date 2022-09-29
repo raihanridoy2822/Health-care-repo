@@ -4,7 +4,7 @@
         "category": "health care",
         "name": "dumble",
         "age": 20,
-        "time": "20s",
+        "time": 20,
         "img": "https://c4.wallpaperflare.com/wallpaper/206/268/839/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg",
         "rating": 4
     },
@@ -13,7 +13,7 @@
         "category": "health care",
         "name": "cykle",
         "age": 25,
-        "time": "25s",
+        "time": 25,
         "img": "https://c4.wallpaperflare.com/wallpaper/692/659/618/man-workout-gym-working-wallpaper-preview.jpg",
         "rating": 3
     },
@@ -22,7 +22,7 @@
         "category": "health care",
         "name": "dumble",
         "age": 30,
-        "time": "30s",
+        "time": 30,
         "img": "https://wallpaperaccess.com/full/1087594.jpg",
         "rating": 4
     },
@@ -31,7 +31,7 @@
         "category": "health care",
         "name": "dumble",
         "age": 35,
-        "time": "35s",
+        "time": 30,
         "img": "https://wallpaperaccess.com/full/460863.jpg",
         "rating": 4
     },
@@ -40,7 +40,7 @@
         "category": "health care",
         "name": "dumble",
         "age": 40,
-        "time": "40s",
+        "time": 40,
         "img": "https://i.pinimg.com/originals/be/9d/bf/be9dbf1741a4c8854bbc3d27f2c50584.jpg",
         "rating": 4
     },
@@ -49,7 +49,7 @@
         "category": "health care",
         "name": "fitnes ball",
         "age": 42,
-        "time": "45s",
+        "time": 45,
         "img": "https://wallpaperaccess.com/full/1087639.jpg",
         "rating": 4
     }

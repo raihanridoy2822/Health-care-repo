@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Health.css';
 import Fitness from './../../Fitness/Fitness';
+import Details from './../Details/Details';
+import Heading from '../../Heading/Heading';
 const Health = () => {
     const [product, setProduct] = useState([]);
     const [card, setCard] = useState([]);
@@ -19,20 +21,22 @@ const Health = () => {
 
     return (
         <div className='health-container'>
-            <div className='activity'>
+            <div>
+                <Heading />
+                <div className='activity'>
 
-                {
-                    product.map(product => <Fitness
-                        key={product.id} product={product}
-                        handleCard={handleCard} >
-                    </Fitness>)
-                }
+                    {
+                        product.map(product => <Fitness
+                            key={product.id} product={product}
+                            handleCard={handleCard} >
+                        </Fitness>)
+                    }
+                </div>
             </div>
 
 
             <div className='details'>
-                <h3>details</h3>
-                <p>Exercise time:{card.length}</p>
+                <Details card={card}></Details>
             </div>
         </div>
     );
