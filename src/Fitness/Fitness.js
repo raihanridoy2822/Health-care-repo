@@ -1,7 +1,10 @@
 import React from 'react';
 import './Fitness.css'
 const Fitness = (props) => {
+
     const { name, img, age, time } = props.product;
+
+
     return (
         <div className='total-fitness'>
             <div className='fitness-img'>
@@ -10,7 +13,7 @@ const Fitness = (props) => {
                 <p>age:{age}</p>
                 <p>time requirement: {time}</p>
             </div>
-            <button className='btn-card'>
+            <button onClick={() => props.handleCard(props.product)} className='btn-card'>
                 <p>Add to list</p>
             </button>
         </div>

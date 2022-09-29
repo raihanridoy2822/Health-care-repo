@@ -10,6 +10,9 @@ const Health = () => {
             .then(data => setProduct(data))
 
     }, []);
+    const handleCard = (product) => {
+        console.log(product);
+    }
 
     return (
         <div className='health-container'>
@@ -17,7 +20,8 @@ const Health = () => {
 
                 {
                     product.map(product => <Fitness
-                        key={product.id} product={product} >
+                        key={product.id} product={product}
+                        handleCard={handleCard} >
                     </Fitness>)
                 }
             </div>
