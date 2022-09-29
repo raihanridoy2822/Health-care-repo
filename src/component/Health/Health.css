@@ -8,3 +8,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
+.details {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-left: 15px;
+}

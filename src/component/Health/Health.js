@@ -28,6 +28,8 @@ const Health = () => {
                     </Fitness>)
                 }
             </div>
+
+
             <div className='details'>
                 <h3>details</h3>
                 <p>Exercise time:{card.length}</p>
