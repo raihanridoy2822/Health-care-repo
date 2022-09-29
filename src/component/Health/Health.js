@@ -14,8 +14,11 @@ const Health = () => {
     return (
         <div className='health-container'>
             <div className='activity'>
+
                 {
-                    product.map(product => <Fitness></Fitness>)
+                    product.map(product => <Fitness
+                        key={product.id} product={product} >
+                    </Fitness>)
                 }
             </div>
             <div className='details'>

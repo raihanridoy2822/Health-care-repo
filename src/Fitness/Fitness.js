@@ -1,9 +1,11 @@
 import React from 'react';
-
-const Fitness = () => {
+import './Fitness.css'
+const Fitness = (props) => {
+    const { name, img, age, time } = props.product;
     return (
-        <div>
-            <h3>this is fitness</h3>
+        <div className='fitness-img'>
+            <img src={img} alt=""></img>
+            <p>{name}</p>
         </div>
     );
 };
